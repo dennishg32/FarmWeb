@@ -160,7 +160,18 @@
     
     .ftr {
         margin-top: 3%;
-        height: 10vh;
+        height: 5vh;
+        background-color: black;
+        padding: 0 10px;
+        padding-bottom: 160px;
+    }
+    
+    .ftr ul li a {
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: inline-block;
+        font-weight: 700;
     }
     
     .ftr ul {
@@ -168,9 +179,35 @@
         padding: 0;
         margin: 0;
         justify-content: center;
+        color: white;
     }
     
     .ftr ul li {
         display: inline;
         margin: 0 20px;
+    }
+    
+    .ftr p {
+        margin-top: 2%;
+        color: white;
+        text-align: center;
+    }
+    
+    .fa {
+        padding: 10px;
+        font-size: 30px;
+        width: auto;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+    
+    .fa-instagram {
+        color: white;
+        background: black;
+    }
+    
+    .fa-twitter {
+        color: white;
+        background: black;
     }
