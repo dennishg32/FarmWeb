@@ -6,10 +6,18 @@
         scroll-behavior: smooth;
     }
     
+    header img {
+        height: 50px;
+        box-sizing: border-box;
+        padding-bottom: 200px 0;
+        margin-left: 1%;
+    }
+    
     .menu {
         background: #2c3e50;
         margin: 0;
-        padding: 50px;
+        margin-top: 0;
+        padding: 0px;
         padding-top: 0;
         top: 0;
         position: sticky;
