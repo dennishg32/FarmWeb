@@ -66,17 +66,25 @@
         background-size: cover;
     }
     
-    .descp h2,
-    h5 {
+    .descp h2 {
         color: white;
-        font-size: 1.7em;
         justify-content: center;
+        font-style: italic;
+        padding-top: 8.4em;
+        font-weight: 400;
         display: flex;
-        margin-top: 0;
-        padding-top: 100px;
+        text-transform: uppercase;
+    }
+    
+    .descp h3 {
+        color: white;
+        justify-content: center;
+        font-weight: 400;
+        display: flex;
     }
     
     .sec2 h2 {
+        margin-top: 3%;
         text-align: center;
         margin-bottom: 4%;
         font-size: 3rem;
